@@ -1,0 +1,23 @@
+{
+    "name": "modbus-profile-tools",
+    "version": "0.0.1",
+    "description": "Converter tools",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/klein0r/modbus-profiles.git"
+    },
+    "keywords": [
+      "modbus"
+    ],
+    "author": "Matthias Kleine",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/klein0r/modbus-profiles/issues"
+    },
+    "homepage": "https://github.com/klein0r/modbus-profiles#readme"
+  }
+  

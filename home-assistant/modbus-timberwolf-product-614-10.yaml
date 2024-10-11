@@ -1,0 +1,267 @@
+sensors:
+  - name: Eve Single S-Line KFW Edition, Station related Information Name
+    data_type: string
+    count: 32
+    input_type: holding
+    slave: 1
+    address: 100
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Manufacturer
+    data_type: string
+    count: 12
+    input_type: holding
+    slave: 1
+    address: 117
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Modbus table version
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 122
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Firmware version
+    data_type: string
+    count: 32
+    input_type: holding
+    slave: 1
+    address: 123
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Platform type
+    data_type: string
+    count: 32
+    input_type: holding
+    slave: 1
+    address: 140
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Station serial number
+    data_type: string
+    count: 32
+    input_type: holding
+    slave: 1
+    address: 157
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Date year
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 168
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Date month
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 169
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Date day
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 170
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Time hour
+    unit_of_measurement: h
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 171
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Time minute
+    unit_of_measurement: min
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 172
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Time second
+    unit_of_measurement: s
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 173
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Uptime
+    unit_of_measurement: s
+    data_type: uint64
+    input_type: holding
+    slave: 1
+    address: 174
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Time zone
+    unit_of_measurement: min
+    data_type: int16
+    input_type: holding
+    slave: 1
+    address: 178
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Station Active Max Current
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1100
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Temperature
+    unit_of_measurement: °C
+    device_class: temperature
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1102
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information OCPP state
+    data_type: uint16
+    input_type: holding
+    slave: 1
+    address: 1104
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Nr of sockets
+    data_type: uint16
+    input_type: holding
+    slave: 1
+    address: 1105
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Name
+    data_type: string
+    count: 8
+    input_type: holding
+    slave: 1
+    address: 1400
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Sockets
+    data_type: uint16
+    input_type: holding
+    slave: 1
+    address: 1404
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Total Consumption Phase L1
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1405
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Total Consumption Phase L2
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1407
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Total Consumption Phase L3
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1409
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Actual Max Current Phase L1
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1411
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Actual Max Current Phase L2
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1413
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Actual Max Current Phase L3
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1415
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L1
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1417
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L1 1
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1417
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L2
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1419
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L2 1 2
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1419
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L2 1
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1421
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Max Current per Phase L1 3
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1421
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Remaining valid time Max Current Phase L1
+    unit_of_measurement: s
+    data_type: uint32
+    input_type: holding
+    slave: 1
+    address: 1423
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Remaining valid time Max Current Phase L2
+    unit_of_measurement: s
+    data_type: uint32
+    input_type: holding
+    slave: 1
+    address: 1425
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information Remaining valid time Max Current Phase L3
+    unit_of_measurement: s
+    data_type: uint32
+    input_type: holding
+    slave: 1
+    address: 1427
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Safe Current
+    unit_of_measurement: A
+    device_class: current
+    data_type: float32
+    input_type: holding
+    slave: 1
+    address: 1429
+    scan_interval: 5
+  - name: Eve Single S-Line KFW Edition, Station related Information SCN Modbus Max Current Enable
+    data_type: uint16
+    input_type: holding
+    slave: 1
+    address: 1431
+    scan_interval: 5
