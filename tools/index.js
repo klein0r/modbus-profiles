@@ -26,13 +26,18 @@ function convertTwProfileToHa(twProfile) {
             let haOutput = 'sensors:\n';
 
             for (const reg of twProfileObj.registers) {
-                haOutput += `  - name: ${haEntityPrefix} ${reg.register_name}\n`;
+                const name = reg.register_name;
+
+                haOutput += `  - name: ${haEntityPrefix} ${name.replaceAll('_', ' ')}\n`;
 
                 if (reg.sub_tables.length >= 1) {
                     const subTable = reg.sub_tables[0];
 
-                    const unit = subTable.unit;
+                    let unit = subTable.unit;
                     if (unit) {
+                        if (unit === '%') {
+                            unit = '"%"'; // Wrap in double quotes
+                        }
                         haOutput += `    unit_of_measurement: ${unit}\n`;
 
                         const deviceClass = Object.keys(unitToDeviceClass).find(dC => unitToDeviceClass[dC].includes(unit));

@@ -1,5 +1,5 @@
 sensors:
-  - name: SolarEdge SE8K I_AC_Current
+  - name: SolarEdge SE8K I AC Current
     unit_of_measurement: A
     device_class: current
     data_type: uint16
@@ -7,7 +7,7 @@ sensors:
     slave: 1
     address: 40071
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_CurrentA
+  - name: SolarEdge SE8K I AC CurrentA
     unit_of_measurement: A
     device_class: current
     data_type: uint16
@@ -15,7 +15,7 @@ sensors:
     slave: 1
     address: 40072
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_CurrentB
+  - name: SolarEdge SE8K I AC CurrentB
     unit_of_measurement: A
     device_class: current
     data_type: uint16
@@ -23,7 +23,7 @@ sensors:
     slave: 1
     address: 40073
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_CurrentC
+  - name: SolarEdge SE8K I AC CurrentC
     unit_of_measurement: A
     device_class: current
     data_type: uint16
@@ -31,13 +31,13 @@ sensors:
     slave: 1
     address: 40074
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Current_SF
+  - name: SolarEdge SE8K I AC Current SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40075
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageAB
+  - name: SolarEdge SE8K I AC VoltageAB
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -45,7 +45,7 @@ sensors:
     slave: 1
     address: 40076
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageBC
+  - name: SolarEdge SE8K I AC VoltageBC
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -53,7 +53,7 @@ sensors:
     slave: 1
     address: 40077
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageCA
+  - name: SolarEdge SE8K I AC VoltageCA
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -61,7 +61,7 @@ sensors:
     slave: 1
     address: 40078
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageAN
+  - name: SolarEdge SE8K I AC VoltageAN
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -69,7 +69,7 @@ sensors:
     slave: 1
     address: 40079
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageBN
+  - name: SolarEdge SE8K I AC VoltageBN
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -77,7 +77,7 @@ sensors:
     slave: 1
     address: 40080
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VoltageCN
+  - name: SolarEdge SE8K I AC VoltageCN
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -85,13 +85,13 @@ sensors:
     slave: 1
     address: 40081
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Voltage_SF
+  - name: SolarEdge SE8K I AC Voltage SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40082
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Power
+  - name: SolarEdge SE8K I AC Power
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -99,13 +99,13 @@ sensors:
     slave: 1
     address: 40083
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Power_SF
+  - name: SolarEdge SE8K I AC Power SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40084
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Frequency
+  - name: SolarEdge SE8K I AC Frequency
     unit_of_measurement: Hz
     device_class: frequency
     data_type: uint16
@@ -113,13 +113,13 @@ sensors:
     slave: 1
     address: 40085
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Frequency_SF
+  - name: SolarEdge SE8K I AC Frequency SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40086
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VA
+  - name: SolarEdge SE8K I AC VA
     unit_of_measurement: VA
     device_class: apparent_power
     data_type: int16
@@ -127,39 +127,39 @@ sensors:
     slave: 1
     address: 40087
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VA_SF
+  - name: SolarEdge SE8K I AC VA SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40088
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VAR
+  - name: SolarEdge SE8K I AC VAR
     unit_of_measurement: VAR
     data_type: int16
     input_type: holding
     slave: 1
     address: 40089
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_VAR_SF
+  - name: SolarEdge SE8K I AC VAR SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40090
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_PF
-    unit_of_measurement: %
+  - name: SolarEdge SE8K I AC PF
+    unit_of_measurement: "%"
     data_type: int16
     input_type: holding
     slave: 1
     address: 40091
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_PF_SF
+  - name: SolarEdge SE8K I AC PF SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40092
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Energy_WH
+  - name: SolarEdge SE8K I AC Energy WH
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -167,13 +167,13 @@ sensors:
     slave: 1
     address: 40093
     scan_interval: 5
-  - name: SolarEdge SE8K I_AC_Energy_WH_SF
+  - name: SolarEdge SE8K I AC Energy WH SF
     data_type: uint16
     input_type: holding
     slave: 1
     address: 40095
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Current
+  - name: SolarEdge SE8K I DC Current
     unit_of_measurement: A
     device_class: current
     data_type: uint16
@@ -181,13 +181,13 @@ sensors:
     slave: 1
     address: 40096
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Current_SF
+  - name: SolarEdge SE8K I DC Current SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40097
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Voltage
+  - name: SolarEdge SE8K I DC Voltage
     unit_of_measurement: V
     device_class: voltage
     data_type: uint16
@@ -195,13 +195,13 @@ sensors:
     slave: 1
     address: 40098
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Voltage_SF
+  - name: SolarEdge SE8K I DC Voltage SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40099
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Power
+  - name: SolarEdge SE8K I DC Power
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -209,13 +209,13 @@ sensors:
     slave: 1
     address: 40100
     scan_interval: 5
-  - name: SolarEdge SE8K I_DC_Power_SF
+  - name: SolarEdge SE8K I DC Power SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40101
     scan_interval: 5
-  - name: SolarEdge SE8K I_Temp_Sink
+  - name: SolarEdge SE8K I Temp Sink
     unit_of_measurement: °C
     device_class: temperature
     data_type: int16
@@ -223,19 +223,19 @@ sensors:
     slave: 1
     address: 40103
     scan_interval: 5
-  - name: SolarEdge SE8K I_Temp_SF
+  - name: SolarEdge SE8K I Temp SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40106
     scan_interval: 5
-  - name: SolarEdge SE8K I_Status
+  - name: SolarEdge SE8K I Status
     data_type: uint16
     input_type: holding
     slave: 1
     address: 40107
     scan_interval: 5
-  - name: SolarEdge SE8K I_Status_Vendor
+  - name: SolarEdge SE8K I Status Vendor
     data_type: uint16
     input_type: holding
     slave: 1

@@ -1,5 +1,5 @@
 sensors:
-  - name: SolarEdge Meter 1 M_AC_Current
+  - name: SolarEdge Meter 1 M AC Current
     unit_of_measurement: A
     device_class: current
     data_type: int16
@@ -7,7 +7,7 @@ sensors:
     slave: 1
     address: 40190
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_CurrentA
+  - name: SolarEdge Meter 1 M AC CurrentA
     unit_of_measurement: A
     device_class: current
     data_type: int16
@@ -15,7 +15,7 @@ sensors:
     slave: 1
     address: 40191
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_CurrentB
+  - name: SolarEdge Meter 1 M AC CurrentB
     unit_of_measurement: A
     device_class: current
     data_type: int16
@@ -23,7 +23,7 @@ sensors:
     slave: 1
     address: 40192
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_CurrentC
+  - name: SolarEdge Meter 1 M AC CurrentC
     unit_of_measurement: A
     device_class: current
     data_type: int16
@@ -31,13 +31,13 @@ sensors:
     slave: 1
     address: 40193
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Current_SF
+  - name: SolarEdge Meter 1 M AC Current SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40194
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageLN
+  - name: SolarEdge Meter 1 M AC VoltageLN
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -45,7 +45,7 @@ sensors:
     slave: 1
     address: 40195
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageAN
+  - name: SolarEdge Meter 1 M AC VoltageAN
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -53,7 +53,7 @@ sensors:
     slave: 1
     address: 40196
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageBN
+  - name: SolarEdge Meter 1 M AC VoltageBN
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -61,7 +61,7 @@ sensors:
     slave: 1
     address: 40197
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageCN
+  - name: SolarEdge Meter 1 M AC VoltageCN
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -69,7 +69,7 @@ sensors:
     slave: 1
     address: 40198
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageLL
+  - name: SolarEdge Meter 1 M AC VoltageLL
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -77,7 +77,7 @@ sensors:
     slave: 1
     address: 40199
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageAB
+  - name: SolarEdge Meter 1 M AC VoltageAB
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -85,7 +85,7 @@ sensors:
     slave: 1
     address: 40200
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageBC
+  - name: SolarEdge Meter 1 M AC VoltageBC
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -93,7 +93,7 @@ sensors:
     slave: 1
     address: 40201
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VoltageCA
+  - name: SolarEdge Meter 1 M AC VoltageCA
     unit_of_measurement: V
     device_class: voltage
     data_type: int16
@@ -101,13 +101,13 @@ sensors:
     slave: 1
     address: 40202
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Voltage_SF
+  - name: SolarEdge Meter 1 M AC Voltage SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40203
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Freq
+  - name: SolarEdge Meter 1 M AC Freq
     unit_of_measurement: Hz
     device_class: frequency
     data_type: int16
@@ -115,13 +115,13 @@ sensors:
     slave: 1
     address: 40204
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Freq_SF
+  - name: SolarEdge Meter 1 M AC Freq SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40205
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Power
+  - name: SolarEdge Meter 1 M AC Power
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -129,7 +129,7 @@ sensors:
     slave: 1
     address: 40206
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PowerA
+  - name: SolarEdge Meter 1 M AC PowerA
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -137,7 +137,7 @@ sensors:
     slave: 1
     address: 40207
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PowerB
+  - name: SolarEdge Meter 1 M AC PowerB
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -145,7 +145,7 @@ sensors:
     slave: 1
     address: 40208
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PowerC
+  - name: SolarEdge Meter 1 M AC PowerC
     unit_of_measurement: W
     device_class: power
     data_type: int16
@@ -153,13 +153,13 @@ sensors:
     slave: 1
     address: 40209
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_Power_SF
+  - name: SolarEdge Meter 1 M AC Power SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40210
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VA
+  - name: SolarEdge Meter 1 M AC VA
     unit_of_measurement: VA
     device_class: apparent_power
     data_type: int16
@@ -167,7 +167,7 @@ sensors:
     slave: 1
     address: 40211
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VA_A
+  - name: SolarEdge Meter 1 M AC VA A
     unit_of_measurement: VA
     device_class: apparent_power
     data_type: int16
@@ -175,7 +175,7 @@ sensors:
     slave: 1
     address: 40212
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VA_B
+  - name: SolarEdge Meter 1 M AC VA B
     unit_of_measurement: VA
     device_class: apparent_power
     data_type: int16
@@ -183,7 +183,7 @@ sensors:
     slave: 1
     address: 40213
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VA_C
+  - name: SolarEdge Meter 1 M AC VA C
     unit_of_measurement: VA
     device_class: apparent_power
     data_type: int16
@@ -191,81 +191,81 @@ sensors:
     slave: 1
     address: 40214
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VA_SF
+  - name: SolarEdge Meter 1 M AC VA SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40215
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VAR
+  - name: SolarEdge Meter 1 M AC VAR
     unit_of_measurement: VAR
     data_type: int16
     input_type: holding
     slave: 1
     address: 40216
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VAR_A
+  - name: SolarEdge Meter 1 M AC VAR A
     unit_of_measurement: VAR
     data_type: int16
     input_type: holding
     slave: 1
     address: 40217
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VAR_B
+  - name: SolarEdge Meter 1 M AC VAR B
     unit_of_measurement: VAR
     data_type: int16
     input_type: holding
     slave: 1
     address: 40218
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VAR_C
+  - name: SolarEdge Meter 1 M AC VAR C
     unit_of_measurement: VAR
     data_type: int16
     input_type: holding
     slave: 1
     address: 40219
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_VAR_SF
+  - name: SolarEdge Meter 1 M AC VAR SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40220
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PF
-    unit_of_measurement: %
+  - name: SolarEdge Meter 1 M AC PF
+    unit_of_measurement: "%"
     data_type: int16
     input_type: holding
     slave: 1
     address: 40221
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PF_A
-    unit_of_measurement: %
+  - name: SolarEdge Meter 1 M AC PF A
+    unit_of_measurement: "%"
     data_type: int16
     input_type: holding
     slave: 1
     address: 40222
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PF_B
-    unit_of_measurement: %
+  - name: SolarEdge Meter 1 M AC PF B
+    unit_of_measurement: "%"
     data_type: int16
     input_type: holding
     slave: 1
     address: 40223
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PF_C
-    unit_of_measurement: %
+  - name: SolarEdge Meter 1 M AC PF C
+    unit_of_measurement: "%"
     data_type: int16
     input_type: holding
     slave: 1
     address: 40224
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_AC_PF_SF
+  - name: SolarEdge Meter 1 M AC PF SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40225
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported
+  - name: SolarEdge Meter 1 M Exported
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -273,7 +273,7 @@ sensors:
     slave: 1
     address: 40226
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_A
+  - name: SolarEdge Meter 1 M Exported A
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -281,7 +281,7 @@ sensors:
     slave: 1
     address: 40228
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_B
+  - name: SolarEdge Meter 1 M Exported B
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -289,7 +289,7 @@ sensors:
     slave: 1
     address: 40230
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_C
+  - name: SolarEdge Meter 1 M Exported C
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -297,7 +297,7 @@ sensors:
     slave: 1
     address: 40232
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported
+  - name: SolarEdge Meter 1 M Imported
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -305,7 +305,7 @@ sensors:
     slave: 1
     address: 40234
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_A
+  - name: SolarEdge Meter 1 M Imported A
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -313,7 +313,7 @@ sensors:
     slave: 1
     address: 40236
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_B
+  - name: SolarEdge Meter 1 M Imported B
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -321,7 +321,7 @@ sensors:
     slave: 1
     address: 40238
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_C
+  - name: SolarEdge Meter 1 M Imported C
     unit_of_measurement: Wh
     device_class: energy
     data_type: uint32
@@ -329,193 +329,193 @@ sensors:
     slave: 1
     address: 40240
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Energy_W_SF
+  - name: SolarEdge Meter 1 M Energy W SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40242
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_VAh
+  - name: SolarEdge Meter 1 M Exported VAh
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40243
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_VAh_A
+  - name: SolarEdge Meter 1 M Exported VAh A
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40245
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_VAh_B
+  - name: SolarEdge Meter 1 M Exported VAh B
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40247
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Exported_VAh_C
+  - name: SolarEdge Meter 1 M Exported VAh C
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40249
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_VAh
+  - name: SolarEdge Meter 1 M Imported VAh
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40251
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_VAh_A
+  - name: SolarEdge Meter 1 M Imported VAh A
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40253
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_VAh_B
+  - name: SolarEdge Meter 1 M Imported VAh B
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40255
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Imported_VAh_C
+  - name: SolarEdge Meter 1 M Imported VAh C
     unit_of_measurement: VAh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40257
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Energy_VAh_SF
+  - name: SolarEdge Meter 1 M Energy VAh SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40259
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q1
+  - name: SolarEdge Meter 1 M Import VARh Q1
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40260
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q1_A
+  - name: SolarEdge Meter 1 M Import VARh Q1 A
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40262
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q1_B
+  - name: SolarEdge Meter 1 M Import VARh Q1 B
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40264
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q1_C
+  - name: SolarEdge Meter 1 M Import VARh Q1 C
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40266
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q2
+  - name: SolarEdge Meter 1 M Import VARh Q2
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40268
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q2_A
+  - name: SolarEdge Meter 1 M Import VARh Q2 A
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40270
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q2_B
+  - name: SolarEdge Meter 1 M Import VARh Q2 B
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40272
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Import_VARh_Q2_C
+  - name: SolarEdge Meter 1 M Import VARh Q2 C
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40274
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q3
+  - name: SolarEdge Meter 1 M Export VARh Q3
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40276
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q3_A
+  - name: SolarEdge Meter 1 M Export VARh Q3 A
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40278
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q3_B
+  - name: SolarEdge Meter 1 M Export VARh Q3 B
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40280
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q3_C
+  - name: SolarEdge Meter 1 M Export VARh Q3 C
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40282
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q4
+  - name: SolarEdge Meter 1 M Export VARh Q4
     unit_of_measurement: VAR
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40284
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q4_A
+  - name: SolarEdge Meter 1 M Export VARh Q4 A
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40286
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q4_B
+  - name: SolarEdge Meter 1 M Export VARh Q4 B
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40288
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Export_VARh_Q4_C
+  - name: SolarEdge Meter 1 M Export VARh Q4 C
     unit_of_measurement: VARh
     data_type: uint32
     input_type: holding
     slave: 1
     address: 40290
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Energy_VARh_SF
+  - name: SolarEdge Meter 1 M Energy VARh SF
     data_type: int16
     input_type: holding
     slave: 1
     address: 40292
     scan_interval: 5
-  - name: SolarEdge Meter 1 M_Events
+  - name: SolarEdge Meter 1 M Events
     data_type: uint32
     input_type: holding
     slave: 1
