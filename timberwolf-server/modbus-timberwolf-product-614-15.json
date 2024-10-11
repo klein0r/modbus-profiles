@@ -1,0 +1,1282 @@
+{
+  "author": "klein0r",
+  "bool_editor_options": 0,
+  "content_type": "Modbus Application",
+  "copy_log": "exported 1728635549 614-15\n",
+  "exported": 1728635549,
+  "format_version": 0.1,
+  "hash": "jA0ECQMCqmFy+Tq8LMa70mwBWgLF/GXy4OmED2e786B20rtMoSVW3fVsSwdX3Zq/6k9CrssILBWTwsyrfUXXutBkTl6S6wIL4cjN7GPoOrPAj0BDk1AcUYiLGSScVurFIFandixcsBqUneYUEh/DActSeFkvcn9n6+QhIXc=",
+  "language": "DE",
+  "last_modified": 1673955051,
+  "manufacturer": "SolarEdge",
+  "max_param_in_request": 20,
+  "max_timeout": 1000,
+  "min_polling_time": 60,
+  "modbus_type": "TCP",
+  "product_description": "PV Wechselrichter SolarEdge mit SunSpec TCP/IP Protokoll (z.B. WR SE8K)",
+  "product_id": "614-15",
+  "product_name": "SolarEdge SE8K",
+  "product_remark": "",
+  "registers": [
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40071,
+      "register_description": "AC Current Total",
+      "register_flags": "----",
+      "register_name": "I_AC_Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Current",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40072,
+      "register_description": "AC Current Phase A",
+      "register_flags": "----",
+      "register_name": "I_AC_CurrentA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_CurrentA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40073,
+      "register_description": "AC Current Phase B",
+      "register_flags": "----",
+      "register_name": "I_AC_CurrentB",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_CurrentB",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40074,
+      "register_description": "AC Current Phase C",
+      "register_flags": "----",
+      "register_name": "I_AC_CurrentC",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_CurrentC",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40075,
+      "register_description": "AC Current scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_Current_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Current_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40076,
+      "register_description": "AC Voltage Phase AB",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageAB",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageAB",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40077,
+      "register_description": "AC Voltage Phase BC",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageBC",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageBC",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40078,
+      "register_description": "AC Voltage Phase CA",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageCA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageCA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40079,
+      "register_description": "AC Voltage Phase AN",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageAN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageAN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40080,
+      "register_description": "AC Voltage Phase BN",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageBN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageBN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40081,
+      "register_description": "AC Voltage Phase CN",
+      "register_flags": "----",
+      "register_name": "I_AC_VoltageCN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VoltageCN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40082,
+      "register_description": "AC Voltage scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_Voltage_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Voltage_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40083,
+      "register_description": "AC Power Total",
+      "register_flags": "----",
+      "register_name": "I_AC_Power",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Power",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40084,
+      "register_description": "AC Power scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_Power_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Power_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40085,
+      "register_description": "AC Frequency",
+      "register_flags": "----",
+      "register_name": "I_AC_Frequency",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Frequency",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Hz"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40086,
+      "register_description": "AC Frequency scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_Frequency_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Frequency_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40087,
+      "register_description": "AC Apparent Power",
+      "register_flags": "----",
+      "register_name": "I_AC_VA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40088,
+      "register_description": "AC Apparent Power scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_VA_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VA_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40089,
+      "register_description": "AC Reactive Power",
+      "register_flags": "----",
+      "register_name": "I_AC_VAR",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VAR",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40090,
+      "register_description": "AC Reactive Power scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_VAR_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_VAR_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40091,
+      "register_description": "AC Power factor",
+      "register_flags": "----",
+      "register_name": "I_AC_PF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_PF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "%"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40092,
+      "register_description": "AC Power factor scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_PF_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_PF_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40093,
+      "register_description": "AC Lifetime Energy production",
+      "register_flags": "----",
+      "register_name": "I_AC_Energy_WH",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Energy_WH",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40095,
+      "register_description": "AC Lifetime Energy production scale factor",
+      "register_flags": "----",
+      "register_name": "I_AC_Energy_WH_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_AC_Energy_WH_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40096,
+      "register_description": "DC Current",
+      "register_flags": "----",
+      "register_name": "I_DC_Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Current",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40097,
+      "register_description": "DC Current scale factor",
+      "register_flags": "----",
+      "register_name": "I_DC_Current_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Current_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40098,
+      "register_description": "DC Voltage",
+      "register_flags": "----",
+      "register_name": "I_DC_Voltage",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Voltage",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40099,
+      "register_description": "DC Voltage scale factor",
+      "register_flags": "----",
+      "register_name": "I_DC_Voltage_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Voltage_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40100,
+      "register_description": "DC Power",
+      "register_flags": "----",
+      "register_name": "I_DC_Power",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Power",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40101,
+      "register_description": "DC Power scale factor",
+      "register_flags": "----",
+      "register_name": "I_DC_Power_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_DC_Power_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40103,
+      "register_description": "Heat Sink Temperature",
+      "register_flags": "----",
+      "register_name": "I_Temp_Sink",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_Temp_Sink",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "\u00b0C"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40106,
+      "register_description": "Heat Sink Temperature scale factor",
+      "register_flags": "----",
+      "register_name": "I_Temp_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_Temp_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40107,
+      "register_description": "Status (1=off, 2=sleep/night, 3=starting, 4=MPPT, 5=Throtteld, 6=shuttingdown, 7=fault, 8=standby/maintance)",
+      "register_flags": "----",
+      "register_name": "I_Status",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_Status",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40108,
+      "register_description": "Vendor-defined operating state and error codes",
+      "register_flags": "----",
+      "register_name": "I_Status_Vendor",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "I_Status_Vendor",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    }
+  ],
+  "rs485_unit_load": "1",
+  "version": "0.1"
+}

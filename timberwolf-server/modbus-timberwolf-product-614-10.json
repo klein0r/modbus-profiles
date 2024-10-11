@@ -1,0 +1,1439 @@
+{
+  "author": "CS",
+  "bool_editor_options": 0,
+  "content_type": "Modbus Application",
+  "copy_log": "exported 1728635630 614-10\n",
+  "exported": 1728635630,
+  "format_version": 0.1,
+  "hash": "jA0ECQMCJE9KzboGiz670mwBeO8EpQCIgdG+cTqVzfc1+poppAvB9X3Vo8JYo+S5PVW+/WQffLqCoZaf+ypyk1LhTwS1vp3XQ2/lPGKlOLqOqSkqMzMB4SvTtlZ6mp//jj15tVFPvFzjgLxetcgOQRXpDjTv2Fa9dXR8ZCA=",
+  "language": "DE",
+  "last_modified": 1655286839,
+  "manufacturer": "Alfen",
+  "max_param_in_request": 50,
+  "max_timeout": 2000,
+  "min_polling_time": 1000,
+  "modbus_type": "TCP",
+  "product_description": null,
+  "product_id": "614-10",
+  "product_name": "Eve Single S-Line KFW Edition, Station related Information",
+  "product_remark": null,
+  "registers": [
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 100,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Name",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Name",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 256
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 117,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Manufacturer",
+      "sub_tables": [
+        {
+          "bitmask": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            0,
+            0
+          ],
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Manufacturer",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 96
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 122,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Modbus table version",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Modbus table version",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 123,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Firmware version",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Firmware version",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 256
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 140,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Platform type",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Platform type",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 256
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 157,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Station serial number",
+      "sub_tables": [
+        {
+          "bitmask": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Station serial number",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 256
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 168,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Date year",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Date year",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 169,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Date month",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Date month",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 170,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Date day",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Date day",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 171,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Time hour",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Time hour",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "h"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 172,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Time minute",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Time minute",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "min"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 173,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Time second",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Time second",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 174,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Uptime",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Uptime",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 178,
+      "register_description": "Time offset to UTC in minutes",
+      "register_flags": "----",
+      "register_name": "Time zone",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Time zone",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "min"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1100,
+      "register_description": "The actual max current",
+      "register_flags": "----",
+      "register_name": "Station Active Max Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Station Active Max Current",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1102,
+      "register_description": "Board temperature, does not reflect environment temperature",
+      "register_flags": "----",
+      "register_name": "Temperature",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Temperature",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "\u00b0C"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1104,
+      "register_description": "To verify whether back office is connected",
+      "register_flags": "----",
+      "register_name": "OCPP state",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "OCPP state",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1105,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Nr of sockets",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Nr of sockets",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1400,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Name",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "TEXT:ASCII7",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Name",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1404,
+      "register_description": "Number of configured sockets",
+      "register_flags": "----",
+      "register_name": "SCN Sockets",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Sockets",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1405,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Total Consumption Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Total Consumption Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1407,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Total Consumption Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Total Consumption Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1409,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Total Consumption Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Total Consumption Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1411,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Actual Max Current Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Actual Max Current Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1413,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Actual Max Current Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Actual Max Current Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1415,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Actual Max Current Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Actual Max Current Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1417,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "W (16)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1417,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L1 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L1 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1419,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "W (16)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1419,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L2 1 2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L2 1 2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1421,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L2 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L2 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "W (16)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1421,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "SCN Max Current per Phase L1 3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Max Current per Phase L1 3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1423,
+      "register_description": "Max current valid time",
+      "register_flags": "----",
+      "register_name": "Remaining valid time Max Current Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Remaining valid time Max Current Phase L1",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1425,
+      "register_description": "Max current valid time",
+      "register_flags": "----",
+      "register_name": "Remaining valid time Max Current Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Remaining valid time Max Current Phase L2",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1427,
+      "register_description": "Max current valid time",
+      "register_flags": "----",
+      "register_name": "Remaining valid time Max Current Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Remaining valid time Max Current Phase L3",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1429,
+      "register_description": "Configured SCN safe current",
+      "register_flags": "----",
+      "register_name": "SCN Safe Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Safe Current",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1431,
+      "register_description": "1: Enabled, 0: Disabled",
+      "register_flags": "----",
+      "register_name": "SCN Modbus Max Current Enable",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "SCN Modbus Max Current Enable",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    }
+  ],
+  "rs485_unit_load": "1",
+  "version": "0.1"
+}

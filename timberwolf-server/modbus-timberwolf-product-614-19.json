@@ -1,0 +1,2688 @@
+{
+  "author": "klein0r",
+  "bool_editor_options": 0,
+  "content_type": "Modbus Application",
+  "copy_log": "exported 1728635504 614-19\n",
+  "exported": 1728635504,
+  "format_version": 0.1,
+  "hash": "jA0ECQMCfFuFlC9Ucjy70mwBgwKzrxOtjqV0g8ZaeoviQ28tF1csmZLySfkDlr+xMu9WHk0PAGyqyrYft4wce5Ev6sLlCwksfEexIcCyf7dDvWAz3t5PVDtMyPm+n+qWvspkCAZheocN8acBS1vShz4w7ZKEEcUT5OUa8vo=",
+  "language": "DE",
+  "last_modified": 1673960931,
+  "manufacturer": "SolarEdge",
+  "max_param_in_request": 20,
+  "max_timeout": 2000,
+  "min_polling_time": 60,
+  "modbus_type": "TCP",
+  "product_description": "MTR-240-3PC1-D-A-MW",
+  "product_id": "614-19",
+  "product_name": "SolarEdge Meter 1",
+  "product_remark": null,
+  "registers": [
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40190,
+      "register_description": "Meter AC Current Total",
+      "register_flags": "----",
+      "register_name": "M_AC_Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Current",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40191,
+      "register_description": "Meter AC Current Phase A",
+      "register_flags": "----",
+      "register_name": "M_AC_CurrentA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_CurrentA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40192,
+      "register_description": "Meter AC Current Phase B",
+      "register_flags": "----",
+      "register_name": "M_AC_CurrentB",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_CurrentB",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40193,
+      "register_description": "Meter AC Current Phase C",
+      "register_flags": "----",
+      "register_name": "M_AC_CurrentC",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_CurrentC",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40194,
+      "register_description": "Meter AC Current scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_Current_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Current_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40195,
+      "register_description": "Meter AC Voltage Average LN",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageLN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageLN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40196,
+      "register_description": "Meter AC Voltage Phase AN",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageAN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageAN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40197,
+      "register_description": "Meter AC Voltage Phase BN",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageBN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageBN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40198,
+      "register_description": "Meter AC Voltage Phase CN",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageCN",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageCN",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40199,
+      "register_description": "Meter AC Voltage Average LL",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageLL",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageLL",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40200,
+      "register_description": "Meter AC Voltage Phase AB",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageAB",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageAB",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40201,
+      "register_description": "Meter AC Voltage Phase BC",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageBC",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageBC",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40202,
+      "register_description": "Meter AC Voltage Phase CA",
+      "register_flags": "----",
+      "register_name": "M_AC_VoltageCA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VoltageCA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40203,
+      "register_description": "Meter AC Voltage scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_Voltage_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Voltage_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40204,
+      "register_description": "Meter AC Frequency",
+      "register_flags": "----",
+      "register_name": "M_AC_Freq",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Freq",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Hz"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40205,
+      "register_description": "Meter AC Frequency scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_Freq_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Freq_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40206,
+      "register_description": "Meter AC Power Total",
+      "register_flags": "----",
+      "register_name": "M_AC_Power",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Power",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40207,
+      "register_description": "Meter AC Power Phase A",
+      "register_flags": "----",
+      "register_name": "M_AC_PowerA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PowerA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40208,
+      "register_description": "Meter AC Power Phase B",
+      "register_flags": "----",
+      "register_name": "M_AC_PowerB",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PowerB",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40209,
+      "register_description": "Meter AC Power Phase C",
+      "register_flags": "----",
+      "register_name": "M_AC_PowerC",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PowerC",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40210,
+      "register_description": "Meter AC Power scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_Power_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_Power_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40211,
+      "register_description": "Meter AC Apparent Power Total",
+      "register_flags": "----",
+      "register_name": "M_AC_VA",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VA",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40212,
+      "register_description": "Meter AC Apparent Power Phase A",
+      "register_flags": "----",
+      "register_name": "M_AC_VA_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VA_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40213,
+      "register_description": "Meter AC Apparent Power Phase B",
+      "register_flags": "----",
+      "register_name": "M_AC_VA_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VA_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40214,
+      "register_description": "Meter AC Apparent Power Phase C",
+      "register_flags": "----",
+      "register_name": "M_AC_VA_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VA_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40215,
+      "register_description": "Meter AC Apparent Power scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_VA_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VA_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40216,
+      "register_description": "Meter AC Reactive Power Total",
+      "register_flags": "----",
+      "register_name": "M_AC_VAR",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VAR",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40217,
+      "register_description": "Meter AC Reactive Power Phase A",
+      "register_flags": "----",
+      "register_name": "M_AC_VAR_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VAR_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40218,
+      "register_description": "Meter AC Reactive Power Phase B",
+      "register_flags": "----",
+      "register_name": "M_AC_VAR_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VAR_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40219,
+      "register_description": "Meter AC Reactive Power Phase C",
+      "register_flags": "----",
+      "register_name": "M_AC_VAR_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VAR_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40220,
+      "register_description": "Meter AC Reactive Power scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_VAR_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_VAR_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40221,
+      "register_description": "Meter AC Power Factor Average",
+      "register_flags": "----",
+      "register_name": "M_AC_PF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "%"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40222,
+      "register_description": "Meter AC Power Factor Phase A",
+      "register_flags": "----",
+      "register_name": "M_AC_PF_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PF_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "%"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40223,
+      "register_description": "Meter AC Power Factor Phase B",
+      "register_flags": "----",
+      "register_name": "M_AC_PF_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PF_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "%"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40224,
+      "register_description": "Meter AC Power Factor Phase C",
+      "register_flags": "----",
+      "register_name": "M_AC_PF_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PF_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "%"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40225,
+      "register_description": "Meter AC Power Factor scale factor",
+      "register_flags": "----",
+      "register_name": "M_AC_PF_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_AC_PF_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40226,
+      "register_description": "Meter AC Real Energy Exported Total",
+      "register_flags": "----",
+      "register_name": "M_Exported",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40228,
+      "register_description": "Meter AC Real Energy Exported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Exported_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40230,
+      "register_description": "Meter AC Real Energy Exported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Exported_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40232,
+      "register_description": "Meter AC Real Energy Exported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Exported_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40234,
+      "register_description": "Meter AC Real Energy Imported Total",
+      "register_flags": "----",
+      "register_name": "M_Imported",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40236,
+      "register_description": "Meter AC Real Energy Imported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Imported_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40238,
+      "register_description": "Meter AC Real Energy Imported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Imported_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40240,
+      "register_description": "Meter AC Real Energy Imported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Imported_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40242,
+      "register_description": "Meter AC Real Energy scale factor",
+      "register_flags": "----",
+      "register_name": "M_Energy_W_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Energy_W_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40243,
+      "register_description": "Meter AC Apparent Energy Exported Total",
+      "register_flags": "----",
+      "register_name": "M_Exported_VAh",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_VAh",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40245,
+      "register_description": "Meter AC Apparent Energy Exported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Exported_VAh_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_VAh_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40247,
+      "register_description": "Meter AC Apparent Energy Exported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Exported_VAh_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_VAh_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40249,
+      "register_description": "Meter AC Apparent Energy Exported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Exported_VAh_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Exported_VAh_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40251,
+      "register_description": "Meter AC Apparent Energy Imported Total",
+      "register_flags": "----",
+      "register_name": "M_Imported_VAh",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_VAh",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40253,
+      "register_description": "Meter AC Apparent Energy Imported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Imported_VAh_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_VAh_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40255,
+      "register_description": "Meter AC Apparent Energy Imported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Imported_VAh_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_VAh_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40257,
+      "register_description": "Meter AC Apparent Energy Imported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Imported_VAh_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Imported_VAh_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40259,
+      "register_description": "Meter AC Apparent Energy scale factor",
+      "register_flags": "----",
+      "register_name": "M_Energy_VAh_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Energy_VAh_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40260,
+      "register_description": "Meter AC Q1 Reactive Energy Imported Total",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q1",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40262,
+      "register_description": "Meter AC Q1 Reactive Energy Imported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q1_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q1_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40264,
+      "register_description": "Meter AC Q1 Reactive Energy Imported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q1_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q1_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40266,
+      "register_description": "Meter AC Q1 Reactive Energy Imported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q1_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q1_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40268,
+      "register_description": "Meter AC Q2 Reactive Energy Imported Total",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q2",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40270,
+      "register_description": "Meter AC Q2 Reactive Energy Imported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q2_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q2_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40272,
+      "register_description": "Meter AC Q2 Reactive Energy Imported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q2_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q2_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40274,
+      "register_description": "Meter AC Q2 Reactive Energy Imported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Import_VARh_Q2_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Import_VARh_Q2_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40276,
+      "register_description": "Meter AC Q3 Reactive Energy Exported Total",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q3",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40278,
+      "register_description": "Meter AC Q3 Reactive Energy Exported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q3_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q3_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40280,
+      "register_description": "Meter AC Q3 Reactive Energy Exported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q3_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q3_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40282,
+      "register_description": "Meter AC Q3 Reactive Energy Exported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q3_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q3_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40284,
+      "register_description": "Meter AC Q4 Reactive Energy Exported Total",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q4",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q4",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40286,
+      "register_description": "Meter AC Q4 Reactive Energy Exported Phase A",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q4_A",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q4_A",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40288,
+      "register_description": "Meter AC Q4 Reactive Energy Exported Phase B",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q4_B",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q4_B",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40290,
+      "register_description": "Meter AC Q4 Reactive Energy Exported Phase C",
+      "register_flags": "----",
+      "register_name": "M_Export_VARh_Q4_C",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Export_VARh_Q4_C",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40292,
+      "register_description": "Meter AC Reactive Energy scale factor",
+      "register_flags": "----",
+      "register_name": "M_Energy_VARh_SF",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "SINT:C2",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Energy_VARh_SF",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 40293,
+      "register_description": "Meter AC Event (see Meter Event Flag Values)",
+      "register_flags": "----",
+      "register_name": "M_Events",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "M_Events",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 32
+    }
+  ],
+  "rs485_unit_load": "1",
+  "version": "0.1"
+}

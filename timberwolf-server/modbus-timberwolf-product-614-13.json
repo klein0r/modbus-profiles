@@ -1,0 +1,2256 @@
+{
+  "author": "CS",
+  "bool_editor_options": 0,
+  "content_type": "Modbus Application",
+  "copy_log": "exported 1728635627 614-13\n",
+  "exported": 1728635627,
+  "format_version": 0.1,
+  "hash": "jA0ECQMCkz+IQ7xeJ6670mwBcPxqAGiHiEftREvwvB7hHqTxOCjAG5pZTsrqdgLqayAmmaPJ5o5yMhW5lkxjPVNSNooQjVpwv07RrRV5t0GgnK7dhb7bw+ql7/9/DK9wCCHNG6Jh3oSPNj/rQxgblRkJF3k4jt1jWFr631U=",
+  "language": "DE",
+  "last_modified": 1657811534,
+  "manufacturer": "Alfen",
+  "max_param_in_request": 50,
+  "max_timeout": 2000,
+  "min_polling_time": 1000,
+  "modbus_type": "TCP",
+  "product_description": null,
+  "product_id": "614-13",
+  "product_name": "Eve Single S-Line, KFW Edition, Socket 1",
+  "product_remark": null,
+  "registers": [
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 300,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter State, Initialized",
+      "sub_tables": [
+        {
+          "bitmask": [
+            0,
+            1
+          ],
+          "coding": "BOOL",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter State, Initialized",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 300,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter State. Updated",
+      "sub_tables": [
+        {
+          "bitmask": [
+            0,
+            2
+          ],
+          "coding": "BOOL",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter State. Updated",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 300,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter State, Warning",
+      "sub_tables": [
+        {
+          "bitmask": [
+            0,
+            4
+          ],
+          "coding": "BOOL",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter State, Warning",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 300,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter State, Error",
+      "sub_tables": [
+        {
+          "bitmask": [
+            0,
+            8
+          ],
+          "coding": "BOOL",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter State, Error",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 301,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter last value timestamp",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter last value timestamp",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "ms"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 305,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Meter Type",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Meter Type",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 306,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L1-N)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L1-N)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 308,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L2-N)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L2-N)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 310,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L3-N)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L3-N)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 312,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L1-L2)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L1-L2)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 314,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L2-L3)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L2-L3)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 316,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Voltage Phase V(L3-L1)",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Voltage Phase V(L3-L1)",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "V"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 318,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Current N",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Current N",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 320,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Current Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Current Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 322,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Current Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Current Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 324,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Current Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Current Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 326,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Current Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Current Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 328,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Power Factor Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Power Factor Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 330,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Power Factor Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Power Factor Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 332,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Power Factor Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Power Factor Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 334,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Power Factor Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Power Factor Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 336,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Frequency",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Frequency",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Hz"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 338,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Power Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Power Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 340,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Power Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Power Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 342,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Power Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Power Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 344,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Power Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Power Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "W"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 346,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 348,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 350,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 352,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VA"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 354,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Reactive Power Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Reactive Power Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 356,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Phase L2 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Phase L2 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 358,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Phase L3 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Phase L3 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 360,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Power Sum 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Power Sum 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAR"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 362,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Delivered Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Delivered Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 366,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Delivered Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Delivered Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 370,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Delivered Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Delivered Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 374,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Delivered Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Delivered Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 378,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Consumed Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Consumed Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 382,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Consumed Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Consumed Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 386,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Consumed Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Consumed Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 390,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Real Energy Consumed Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Real Energy Consumed Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "Wh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 394,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Energy Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Energy Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 398,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Energy Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Energy Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 402,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Energy Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Energy Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 406,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Apparent Energy Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Apparent Energy Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VAh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 410,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Reactive Energy Phase L1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Reactive Energy Phase L1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 414,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Reactive Energy Phase L2",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Reactive Energy Phase L2",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 418,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Reactive Energy Phase L3",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Reactive Energy Phase L3",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 422,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Reactive Energy Sum",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Reactive Energy Sum",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "VARh"
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1200,
+      "register_description": "1: Operative, 0: inoperative",
+      "register_flags": "----",
+      "register_name": "Availability",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Availability",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1201,
+      "register_description": "61851 states",
+      "register_flags": "----",
+      "register_name": "Mode 3 state",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "TEXT:ASCII7RTRIM",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Mode 3 state",
+          "send_as": "string",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 64
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1206,
+      "register_description": "Actual Applied overall Max Current for socket",
+      "register_flags": "----",
+      "register_name": "Actual Applied Max Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Actual Applied Max Current",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1208,
+      "register_description": "Remaining time before fall back to safe current",
+      "register_flags": "----",
+      "register_name": "Modbus Slave Max Current valid time",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Modbus Slave Max Current valid time",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "s"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1210,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Modbus Slave Max Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Modbus Slave Max Current",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "W (16)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1210,
+      "register_description": "",
+      "register_flags": "----",
+      "register_name": "Modbus Slave Max Current 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Modbus Slave Max Current 1",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1212,
+      "register_description": "Active Load Balancing safe current",
+      "register_flags": "----",
+      "register_name": "Active Load Balancing Safe Current",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "FLOAT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Active Load Balancing Safe Current",
+          "send_as": "float",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": "A"
+        }
+      ],
+      "width": 32
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1214,
+      "register_description": "1:Yes, 0: No",
+      "register_flags": "----",
+      "register_name": "Modbus Slave received setpoint accounted for",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Modbus Slave received setpoint accounted for",
+          "send_as": "boolean",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "R (03)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1215,
+      "register_description": "1: 1 phase, 3: 3 phase charging",
+      "register_flags": "----",
+      "register_name": "Charge using 1 or 3 phases",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Charge using 1 or 3 phases",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    },
+    {
+      "access": "W (16)",
+      "block": "holding registers",
+      "is_enum": 0,
+      "register_address": 1215,
+      "register_description": "1: 1 phase, 3: 3 phase charging",
+      "register_flags": "----",
+      "register_name": "Charge using 1 or 3 phases 1",
+      "sub_tables": [
+        {
+          "bitmask": null,
+          "coding": "UINT",
+          "default_bitmask": null,
+          "entries": [
+            {
+              "description": "",
+              "flags": "----",
+              "formula": "",
+              "function": "none",
+              "priority": 0,
+              "range_from": 0.0,
+              "range_to": 100.0,
+              "send_value": ""
+            }
+          ],
+          "group_description": null,
+          "group_flags": null,
+          "group_name": "Charge using 1 or 3 phases 1",
+          "send_as": "integer",
+          "swap_byte": 0,
+          "swap_double_word": 0,
+          "swap_word": 0,
+          "unit": ""
+        }
+      ],
+      "width": 16
+    }
+  ],
+  "rs485_unit_load": "1",
+  "version": "0.1"
+}
